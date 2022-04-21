@@ -6,7 +6,7 @@
     <img src="images/logo.png" alt="Logo" width="200" height="50">
   </a>
 
-  <p style = "text-align :center;">
+  <p align="center">
     <code>A E-Commerce Website for Old Books.The website is also responsive for different devices</code>
     <br />
   </p>
@@ -53,7 +53,7 @@ This is a Website where user can buy old books, sell old books, and take old boo
   
 <h1>🌟 Live link</h1>
   
-<a href="https://shubham-pustakalya-web-f4a69a.netlify.app" target="_blank">Pustakalya</a>
+<a href="https://shubham-pustakalya-web-f4a69a.netlify.app" target="_blank">click to check-Pustakalya</a>
   
 <h1>👨‍💻 Tech stack</h1>
 
