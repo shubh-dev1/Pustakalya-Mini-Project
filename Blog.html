@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+       <title> Pustakalya</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+            <section class="sub-header">
+<nav>
+    <a href="index.html"><h2>PUSTAKALYA</h2></a>
+    <span class="loader"></span>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="Books.html">BOOKS</a></li>
+        <li><a href="Blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+
+<h1>OUR BLOG POST</h1>
+            </section>
+
+
+
+            <!----------------------------blog page content-------------------------------->
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="images/blogimg.jpg">
+                        <h2>How To Become A good Software Developer</h2>
+                        <p>One of the best things you can do to become a great developer is to find an excellent mentor. 
+                            A good mentor will provide sound advice on everything from architecture to design,
+                             and even how to improve your career path..</p>
+                             <br>
+                             <p>A person who is not in the same company or location may be the best mentor for you. 
+                                 You can talk to them and get their advice on the phone, via email, or online.
+                                  A mentor doesn't have to work at your company nor be an expert developer.</p>
+                                 <br>
+                                 <p>Being a great developer means that you can communicate effectively with users and other developers. 
+                                     In fact, a large part of being an excellent programmer is sharing your ideas effectively and efficiently.</p>
+                                     <br>
+                                     <p>But communication isn't just about talking.
+                                          It's also about listening to what others have to say. 
+                                         Studies show that good listeners were more successful in their careers than good talkers.</p>
+                                          <div class="comment-box">
+                                              <h3>Leave A Comment</h3>
+                                              <form class="comment-form">
+                                                  <input type="text" placeholder="Enter Name">
+                                                  <input type="email" placeholder="Enter E-mail">
+                                                  <textarea rows="5" placeholder="Your Comment"></textarea>
+                                                  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                                              </form>
+                                          </div>
+                    </div>
+              
+                    <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>How To learn Fast</span>
+                        <span>21</span>
+                    </div>
+                    <div>
+                        <span>6 Things You Must Do To Learn Coding</span>
+                        <span>28</span>
+                    </div>
+                    <div>
+                        <span>How To Become A Good Software Developer</span>
+                        <span>15</span>
+                    </div>
+                    <div>
+                        <span>Various Tags Used In HTML</span>
+                        <span>42</span>
+                    </div>
+                </div>
+            </div>
+            </section>
+          
+
+
+
+           <!------------------------Footer------------------------>
+
+           <section class="footer">
+            <h2>About Us</h2>
+               <p>We provide you old books of various classes of schools, books for various degree, and Novels on half price, <br>
+                here you not only buy old books you can also sell your old books and if you want to donate  your old book for needy students,you can do it here.</p>
+                   <div class="icons">
+                    <a href="https://www.facebook.com/login/" target="_blank">
+                        <i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank">
+                        <i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/home" target="_blank">
+                        <i class="fa fa-linkedin" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <i class="fa fa-instagram"></i></a>
+
+                   </div>
+                   <p>Made by <i class="fa fa-heart-o"></i> Shubham Singhal</p>
+           </section>
+       
+
+
+
+
+
+
+
+
+
+ <!----------------- JavaScript for toggle menu ------------------>
+
+ <script>
+              var navLinks = document.getElementById("navLinks");
+              function showMenu(){
+                  navLinks.style.right = "0";
+              }
+              function hideMenu(){
+                navLinks.style.right = "-200px";
+              }        
+ </script>
+            
+
+
+    </body>
+</html>
