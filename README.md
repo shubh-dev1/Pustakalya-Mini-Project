@@ -27,34 +27,29 @@ This is a Website where user can buy old books, sell old books, and take old boo
 
  <h2 style="text-align:center ; background: black;color: white;">What We provide</h2>
 
-  
-     ![Display What We provide](/images/section2.png)
+   <img src="images/section2.png" width="100%" height="100%" >
 
     
     <h2 style="text-align:center ; background: black;color: white;">Books Section</h2>
-    
-        <img src="images/section3.png" width="100%" height="100%">
+ <img src="images/section3.png" width="100%" height="100%"/>
       
         <h2 style="text-align:center ; background: black;color: white;">Feedback Section</h2>
-           
-  
-            <img src="images/section4.png" width="100%" height="100%">
-         
+        
+          <img src="images/mainpage.png" width="100%" height="100%" >
 
             <h2 style="text-align:center ; background: black;color: white;">Books Page</h2>
                
   
-                <img src="images/section5.png" width="100%" height="100%">
+           ![Your Contact Detail Page](images/section5.png)  
+  
                
                 <h2 style="text-align:center ; background: black;color: white;">Blog Post page</h2>
             
-  
-                    <img src="images/section6.png" width="100%" height="100%">
+   <img src="images/section6.png" width="100%" height="100%" >
                   
                     <h2 style="text-align:center ; background: black;color: white;">Contact-Us Page</h2>
                   
-  
-                        <img src="images/section7.png" width="100%" height="100%">
+   <img src="images/section7.png" width="100%" height="100%" >
                 
 
   
