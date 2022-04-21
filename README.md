@@ -47,7 +47,7 @@ This is a Website where user can buy old books, sell old books, and take old boo
             
    <img src="images/section6.png" width="100%" height="100%" >
                   
-                    <h2 style="text-align:center ; background: black;color: white;">Contact-Us Page</h2>
+                    <h2 style="text-align:center ; background: black;color: white;">Blog Post page</h2>
                   
    <img src="images/section7.png" width="100%" height="100%" >
                 
