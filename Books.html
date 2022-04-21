@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+       <title> Pustakalya</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+            <section class="sub-header">
+<nav>
+    <a href="index.html"><h2>PUSTAKALYA</h2></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="Books.html">BOOKS</a></li>
+        <li><a href="Blog.html">BLOG</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+
+<h1>BOOKS WE PROVIDE</h1>
+            </section>
+           
+            <!--------------------------- Books ------------------------>
+            <section class ="books">
+                <h1></h1>
+                <p></p>
+                    <div class="row">
+                     <div class="books-col">
+                         <img src="images/school.jpg">
+                         <div class="layer">
+                            <a href="schoolBooks.html">
+                             <h3>For Class 9-12</h3></a>
+                         </div>
+                        </div>
+                          <div class="books-col">
+                            <img src="images/college.jpg">
+                            <div class="layer">
+                                <a href="college.html">
+                                <h3>College Books</h3></a>
+                            </div>
+                        </div>
+                            <div class="books-col">
+                                <img src="images/novels1.jpg">
+                                <div class="layer">
+                                    <a href="novels.html">
+                                    <h3>Novels</h3></a>
+                                </div>
+                     </div>
+                    </div>
+            
+            
+            </section>
+
+
+
+
+
+           <!------------------------Footer------------------------>
+
+           <section class="footer">
+            <h2>About Us</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                   Voluptatibus cum id architecto <br>impedit enim dignissimos eos nam nostrum, 
+                   sapiente fugiat ratione assumenda fuga, aliquam facere recusandae alias consequatur quis quisquam?</p>
+                   <div class="icons">
+                    <a href="https://www.facebook.com/?stype=lo&jlou=Aff3uFOfeeWWUyyckJ2y--DTdNVy2OMbz1Zx3nboRVySz_sCEURcZILEbruMdLH4TyHloJC8hWZ4jRCp85lDfI6VGIT-jnZuaIOISDzA-z0Vkg&smuh=9069&lh=Ac9v2iaRM9fkfAoDv-k" target="_blank">
+                        <i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/" target="_blank">
+                        <i class="fa fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/home" target="_blank">
+                        <i class="fa fa-linkedin" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/accounts/login/" target="_blank">
+                        <i class="fa fa-instagram"></i></a>
+
+                   </div>
+                   <p>Made by <i class="fa fa-heart-o"></i> Shubham Singhal</p>
+           </section>
+       
+
+
+
+
+
+
+
+
+
+ <!----------------- JavaScript for toggle menu ------------------>
+
+ <script>
+              var navLinks = document.getElementById("navLinks");
+              function showMenu(){
+                  navLinks.style.right = "0";
+              }
+              function hideMenu(){
+                navLinks.style.right = "-200px";
+              }        
+ </script>
+            
+
+
+    </body>
+</html>
